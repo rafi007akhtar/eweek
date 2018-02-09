@@ -19,6 +19,10 @@ a {
   transition: 0.5s;
 }
 
+li {
+    list-style-type: none;
+}
+
 a:hover, a:active, a:focus {
   color: #1dc9ce;
   outline: none;
@@ -622,6 +626,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .description {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 10px;
